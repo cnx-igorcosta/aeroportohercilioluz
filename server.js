@@ -11,7 +11,7 @@ var app = express();
 //STATIC SOURCES'mongodb://localhost/rpgmanager'
 app.use('/assets', express.static('assets'));
 app.use('/images', express.static('images'));
-//var favicon = require('serve-favicon');
+// var favicon = require('serve-favicon');
 //app.use(favicon(__dirname + '/images/favicon.png'));
 
 //DEFINE PAGES
