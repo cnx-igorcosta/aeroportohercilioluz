@@ -18,6 +18,27 @@ app.use('/images', express.static('images'));
 app.get('/', function(req, res){
     res.sendFile('index.html', { root: __dirname  } );
 });
+app.get('/index.html', function(req, res){
+    res.sendFile('index.html', { root: __dirname  } );
+});
+app.get('/conveniencia.html', function(req, res){
+    res.sendFile('conveniencia.html', { root: __dirname  } );
+});
+app.get('/eventos.html', function(req, res){
+    res.sendFile('eventos.html', { root: __dirname  } );
+});
+app.get('/hospitalidade.html', function(req, res){
+    res.sendFile('hospitalidade.html', { root: __dirname  } );
+});
+app.get('/politicas.html', function(req, res){
+    res.sendFile('politicas.html', { root: __dirname  } );
+});
+app.get('/infraestrutura.html', function(req, res){
+    res.sendFile('infraestrutura.html', { root: __dirname  } );
+});
+app.get('/alimentacao.html', function(req, res){
+    res.sendFile('alimentacao.html', { root: __dirname  } );
+});
 
 
 //defaultRoute(app);
